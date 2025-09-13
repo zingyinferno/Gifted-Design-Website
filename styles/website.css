@@ -1,0 +1,373 @@
+/*first part style*/
+.free-holiday-container { 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+  .welcome-btn,
+  .pick-any-btn,
+  .gift-cards-btn,
+  .all-stars,
+  .integration-btn { /* checkout, multiple classes declared*/ 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: transparent;
+    border: 1px solid rgb(214, 209, 209);
+    box-shadow: 30px 20px 15px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+    cursor: pointer;
+    padding: 3px 7px;
+    background-color: white;
+  }
+    .crown {
+      margin-right: 7px;
+    }
+    .crown-text,
+    .gift-card ,
+    .appreciate,
+    .integrate-text {
+      color: black;
+      text-wrap-mode:nowrap;
+      font-weight: 40px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+
+
+    .indent,
+    .gifting-any-case,
+    .c-g,
+    .connection-text{
+      color: black;
+      font-size: 50px;
+      font-weight:bolder;
+      font-family:Tahoma;
+      line-height: 60px;
+    }
+      .client-gift {
+        flex-direction: column;
+      }
+      .free {
+        color: black;
+      }
+      .follow {
+        color: rgb(232, 53, 89);
+      }
+
+    .btn-container {
+      padding-top: 30px;
+      padding-bottom: 20px;
+    }
+      .start-gifting,
+      .catalog-btn,
+      .appreciate-btn,
+      .browse-btn {  
+        background-color:rgb(232, 53, 89); 
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        border: none;
+        border-radius: 5px;      
+        padding-left: 20px;
+        padding-right: 4px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        margin-right: 15px;
+        cursor: pointer;
+      }
+      .appreciate-btn {
+        width: fit-content;
+        margin-top: 100px;
+        margin-left: 750px;
+        margin-right: 750px;
+      }
+        .start-gifting-text,
+        .gifting-text,
+        .browse-text {
+          color: white;
+          font-weight: smaller;
+          font-family:Arial ;
+          text-wrap-mode: nowrap;
+        }
+        .arrow-right {
+          cursor: pointer;
+          width: 30px;  
+        }
+      .book-demo2 {
+        color:mediumvioletred;
+        padding: 10px 15px;
+        text-wrap-mode:nowrap;
+        background-color: transparent;
+        border: 2px solid rgb(200, 194, 194);
+        box-shadow: inset 0px 0px 0px rgba(0, 0, 0, 0.05);
+        cursor: pointer;
+        border-radius: 8px;
+        font-weight: bold;
+      }  
+  .img-div,
+  .logo-container {
+    padding-bottom: 50px;
+    cursor: pointer;
+  }
+  .trusted-footer {
+    padding-top: 100px;
+  }
+    .icon-logo {
+      width: 150px;
+    }
+
+/*checkout multiple class Declared --------------------------------------------------*/
+.client-gift,
+.for-every-use,
+.picks,
+.style-div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+    .btn-container,
+    .brands,
+    .client-gift {
+      display: flex; 
+      flex-direction: row;
+      align-items: center;
+    }
+
+    .indent2,
+    .catalog,
+    .indent3 {
+      text-align: justify;
+      text-align-last: left;
+    }
+
+.connect-easily,
+.connect-header,
+.logo-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/*----------------------------------------------------------------*/
+
+/*second style*/
+.for-every-use {
+  margin-top: 150px;
+}
+    .pick-any-btn {
+      font-weight: small;
+    }
+      .thunder
+       {
+        margin-right: 7px;
+      }
+  .gifting-any-case {
+    margin-top: 15px;
+    margin-bottom: 35px;
+  }
+  .container-picks {
+    display: grid;
+    grid-template-columns: 350px 350px 350px;
+    height: 430px;
+    gap: 15px;
+  }
+    .style-border {
+      display: flex;
+      flex-direction: column;
+      background-color: transparent;
+      border: 2px solid rgb(200, 194, 194);
+      box-shadow: inset 0px 0px 0px rgba(0, 0, 0, 0.005px);
+      border-radius: 20px;
+      margin-bottom: 20px;
+    }
+      .png {
+        object-fit: cover;
+        margin: 2px;
+      }
+      .title {
+        font-weight: bolder;
+        color: black;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+      }
+    .style-div {
+      row-gap: 10px;
+      margin-top: 20px;
+    }
+
+    .btn {
+      padding: 7px 10px;
+      border: none;
+      border-radius: 20px;
+      margin-right: 5px;
+      cursor: pointer;
+    }
+    .bt-color {
+      background-color: rgb(250, 229, 221);
+    }
+    .bn {
+      background-color:rgb(217, 212, 248);
+    }
+    .black-color {
+      background-color: black;
+      color: white;
+    }
+    .btn-color {
+      background-color: rgb(255, 234, 209);
+    }
+/*third style*/
+.brands-container {
+  background-color: rgb(255, 249, 249);
+  margin-top: 30px;
+}
+.brands {
+  justify-content: space-between;
+  margin-top: 100px;
+  padding-top: 150px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+  .card-div {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+  }
+    .gift-cards-btn,
+    .integration-btn {
+      display: flex;
+      flex-direction: row ; 
+      column-gap: 6px;
+      width: max-content;
+      cursor: pointer;
+      align-items: center;
+      background-color: white;
+      font-weight: 480;
+      padding: 5px 10px;
+    } 
+    .integration-btn {
+      padding: 2px 15px;
+    }
+    .png1{
+      width: 560px;
+    }
+    .indent3 {
+      color: rgba(94, 87, 87, 0.897);
+    }
+    .catalog {
+      color: black;
+      font-size: 50px;
+      font-weight:bolder;
+      font-family:Tahoma;
+      line-height: 50px;
+    }
+    .catalog-btn {
+      display: grid;
+      grid-template-columns: 100px 20px;
+      width:max-content;
+      padding-right: 20px;
+      cursor: pointer;
+    }
+
+
+
+/* client style */
+
+.client-container {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(255, 249, 249);
+  padding-top: 100px;
+}
+    .client-gift {
+      flex-direction: column;
+    }
+  .client-grid {
+  display: grid;
+  grid-template-columns: 280px 280px 280px ;    
+  column-gap: 20px;
+  row-gap: 20px;
+  margin-top: 70px;
+  background-color: white;
+  padding-left: 750px;
+  padding-right: 750px;
+  padding-bottom: 100px;
+  }
+  .client-div,
+  .logo-content {
+    display: flex; 
+    flex-direction: column;
+    align-items: start;
+    row-gap: 20px;
+    border: 2px solid rgb(200, 194, 194);
+    box-shadow: inset 0px 0px 0px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+    padding: 20px 20px;
+    width:fit-content;
+  }
+
+  .channel-div {
+    display: grid;
+    grid-template-columns: 30px 1fr;
+    gap: 40px;
+    align-items: center;
+  }
+    .channel-png {
+      border-radius: 30px;
+    }
+  .style-client-text {
+    color: black;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 550;
+    font-size: smaller;
+  }
+  .style-black,
+  .client-name,
+  .client-status,         /*multiple classes declarde*/
+  .style-client-text {
+    color:black; 
+    text-align:start;
+    text-align-last:left; 
+  } 
+  .client-status {
+    color: rgba(94, 87, 87, 0.897);
+    font-size: smaller;
+  }
+.connect-container {
+  margin-top: 150px;
+  align-items: center;
+  justify-content: center;
+}
+.connect-easily {
+  row-gap: 70px;
+}
+  .connect-header {
+    row-gap: 25px;
+  }
+    .content-div {
+      display: grid;
+      grid-template-columns: 180px 180px 180px 180px 180px 150px;
+      grid-template-rows: 165px 160px;
+      column-gap: 10px;
+      row-gap: 10px;
+    }
+      .logo-content {
+        align-items: center; /*it must be decleared here*/
+      }
+      .logo-png {
+        height: 100px;
+        width: 100px;
+        border-radius: 50px;
+      }
+.browse-btn {
+  margin-left: 700px;
+  margin-right: 700px;
+  margin-top: 50px;
+}
+
+.logo-text {
+  font-weight: 900;
+  font-family:'Lucida Sans';
+  color: black;
+  font-size: medium;
+}

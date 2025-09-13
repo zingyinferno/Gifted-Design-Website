@@ -1,0 +1,128 @@
+  .header {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 100px;
+  flex: 1;
+  border-bottom: 1px solid rgb(233, 230, 230);
+}
+  .sms-box {
+    background-color: rgb(250, 229, 221);
+    height: 50px;
+  }
+    .gift-box {
+      width: 600px ;
+      height: 50px;
+    }
+      .gifted-png {
+        width: 200px;
+        height: 50px;
+        padding-left: 40px;
+      }
+      .gift-icon {
+        margin-right: 20px;
+      }
+      .holi-gift {
+        height: 30px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bolder;
+        color: black;
+        text-wrap-mode:nowrap;
+      }
+    .send-box {
+      width: 470px;
+      margin-right: 2px;
+      margin-left: 10px;
+    }  
+      .send-text {
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode'  ;
+        font-size: small;
+        font-weight:bold;
+      }
+      .cross {
+        width: 20px;
+        height: 20px;
+        cursor: pointer;
+      }
+/*checkout multiple class declared -------------------------------------------------------------------------*/      
+.sms-box,
+.send-box,
+.title-header,
+.categorise-header,
+.use,
+.account-setup-box,
+.gift-box  {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+  .holi-gift,
+  .send-text,
+  .click,
+  .text-style-1{
+    text-wrap-mode:nowrap;
+  }
+  .click,
+  .logIn-btn {
+        color: mediumvioletred;
+        background-color: transparent;
+      }
+  .click,
+  .logIn-btn,
+  .signUp-btn {
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+  }  
+
+/*------------------------------------------------------------------------------------------------*/  
+  .title-header {
+    height: 70px;
+    flex: 1;
+    background-color: white;
+  }
+    .gift-icon-png {
+      object-fit: cover;
+      width: 150px;
+      padding-left: 60px;
+    }
+      .text-style-1 {
+        color: black;
+      }
+      .use {
+        margin-right:20px;
+      }
+      .arrow-down {
+        cursor: pointer;
+      }
+      .account-setup-box {
+        width: 310px;
+        margin-right: 50px;
+        flex-shrink: 0px;
+      }
+        .book-demo {
+          color: mediumvioletred;
+          font-weight: bold;
+          font-family:Verdana, Geneva, Tahoma, sans-serif;
+          font-size: small;
+          text-wrap-mode:nowrap;
+          text-decoration: none ;
+        }
+        .logIn-btn {
+          padding: 10px 15px;
+          text-wrap-mode:nowrap;
+          border: 2px solid rgb(200, 194, 194);
+          box-shadow: inset 0px 0px 0px rgba(0, 0, 0, 0.005px);
+          border-radius: 8px;
+        }
+        .signUp-btn {
+          background-color:rgb(232, 53, 89);
+          color: white;
+          padding: 10px 15px;
+          text-wrap-mode:nowrap;
+          border-radius: 8px;
+        }
